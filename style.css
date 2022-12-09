@@ -26,7 +26,43 @@ body{
     justify-content: center;
 	flex-direction: column;
 }
+.home{
+    background: url("./Images/health-insurance.jpg") center/cover;
+     height:99vh;
+     
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    height: 30vh;
 
+}
+.flex .card-body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+    background: gainsboro;
+    visibility: visible;
+    opacity: 90%;
+    border-radius: 9px;
+    border-bottom: 2px;
+    border-top: black;
+    margin: 3px 0.9rem;
+}
+.flex .card-body h4{
+    display: inline-grid;
+    align-items: center;
+    padding: 2px;
+}
+.flex .card-body p{
+    padding: 3px;
+    justify-content: center;
+    display: inline-grid;
+}
 
 /* Heading Font */
 .container-heading{
