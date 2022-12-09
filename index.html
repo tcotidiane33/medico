@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>PharmaHome | Ivorian Cost Model</title>
+
+</head>
+<body>
+    <div style="color:black;" class="container">
+        <h2 class='container-heading'><span class="heading_font">PharmaHome | Ivorian Cost Model</span></h2>
+    </div>
+
+    <div style="color:black;" class="ml-container">
+        <form action="{{ url_for('predict') }}" method="POST">
+            <div class="flex-log">
+                <br>
+                <h3>First Name</h3>
+                <input id="fifth" name="children" placeholder="John" required="required">
+                <br>
+                <br>
+                <h3>Last Name</h3>
+                <input id="fifth" name="children" placeholder="snow" required="required">
+                <br>
+                <br>
+                <h3>Age</h3>
+                <input id="first" name="age" placeholder="in year" required="required">
+                <br>
+            </div>
+            <div class="flex-log">
+                <br>
+                <h3>Sex</h3>
+                <select id="second" class="form-input align-center" name="sex">
+                    <option value="None">Sex</option>
+                    <option value="sex_male">Male</option>
+                    <option value="sex_female">Female</option>
+                </select>
+                <br>
+                <h3>Smoker</h3>
+                <select id="third" class="form-input align-center" name="smoker">
+                    <option value="None">Smoker</option>
+                    <option value="smoker_yes">Yes</option>
+                    <option value="smoker_no">No</option>
+                </select>
+                <br>
+                <h3>Body Mass Index</h3>
+                <input id="fourth" name="bmi" placeholder="76kg" required="required">
+                <br>
+            </div>
+           
+            <br>
+            <h3>Number of Childrens?</h3>
+            <input id="fifth" name="children" placeholder="0, 1, 2, 3, 4, 5" required="required">
+            <br>
+            <h3>Region</h3>
+            <select id="sixth" class="form-input align-center" name="region">
+                <option value="None">Ivorian Coast <i class="fa fa-s15" aria-hidden="true"></i></option>
+                <option value="region_northwest">North-West</option>
+                <option value="region_southeast">South-East</option>
+                <option value="region_southwest">South-West</option>
+                <option value="region_northeast">North-East</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <button id="sub" type="submit ">Submit</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class='footer-description'>©2022 DojoCode Developpement</p>
+
+        </form>
+    </div>
+   
+<style>
+
+</style>
+
+
+</body>
+
+</html>
+
+
