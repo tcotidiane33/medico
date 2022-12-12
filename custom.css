@@ -8,11 +8,15 @@
     background-color: #ccc;
 }
 .navbar-default .navbar-nav > li:hover> a, .navbar-default .navbar-nav > .active:hover > a {
-    background-color: #ffb424;
+    background-color: #fff;
+    transition: 0.3s;
+    padding: 9px;
 }
+
 .navbar-default .social-list > li:hover> a {
     color: #ffb424;
     background: none;
+
 }
 .navbar-header{
     background: green;
@@ -33,6 +37,9 @@
 /*     position: absolute;*/
 }
 .navbar-right{
+    height: 3rem;
+}
+.navbar-right{
     display: inline-flex ;
     justify-content: space-around ;
     align-items: center;
@@ -50,6 +57,12 @@
      letter-spacing: 0.2rem;
      font-weight: bold;
      text-shadow: 1px 1px 1px blue;
+}
+.navbar-right li .hoe:hover{
+ 
+    position: relative;
+    background: transparent;
+    padding: 3px;
 }
 h2 {
     font-size: 4rem;
@@ -109,12 +122,20 @@ header .banner {
     z-index: -10; Angular, React etc. I want to learn more and utilize my ski
 }
 .banner-content {
-    color: #fff;
+    color: #CCC;
     font-family: "Lato", serif;
     text-align: right;
     text-transform: uppercase;
     margin-top: 17%;
+    font-weight: bolder;
     letter-spacing: 0.4rem;
+         text-shadow: 1px 1px 1px 2px #fff;
+
+}
+.banner-content h1:hover{
+    padding: 3px;
+    position: relative;
+    transition: 0.3s ;
 }
 .banner-content h1 {
     font-size: 5rem;

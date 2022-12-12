@@ -25,6 +25,8 @@ body{
 	display: flex;
     justify-content: center;
 	flex-direction: column;
+        background: url("./Images/health-insurance.jpg") center/cover fixed;
+
 }
 .home{
     background: url("./Images/health-insurance.jpg") center/cover fixed;
