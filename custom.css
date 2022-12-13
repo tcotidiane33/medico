@@ -5,7 +5,7 @@
 
 /*global*/
 .navbar-default .navbar-nav > .active > a {
-    background-color: #ccc;
+    background-color: #fff;
 }
 .navbar-default .navbar-nav > li:hover> a, .navbar-default .navbar-nav > .active:hover > a {
     background-color: #fff;
@@ -122,7 +122,7 @@ header .banner {
     z-index: -10; Angular, React etc. I want to learn more and utilize my ski
 }
 .banner-content {
-    color: #CCC;
+    color: green;
     font-family: "Lato", serif;
     text-align: right;
     text-transform: uppercase;
@@ -451,4 +451,12 @@ footer h2 {
         width: 65%;
         
     }
+}
+
+
+
+@media (min-width: 768px)
+.container {
+    width: 750px;
+    min-width: -webkit-fill-available;
 }

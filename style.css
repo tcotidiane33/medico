@@ -2,15 +2,8 @@
 /* Background Image */
 body
 {
-background-image:url("https://www.acko.com/wp-content/uploads/2020/01/cashless-health-insurance.jpg.webp");
-height: 100%;
+/*background-image:url("https://www.acko.com/wp-content/uploads/2020/01/cashless-health-insurance.jpg.webp");*/
 
-
-
-/* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: 100% 100%;
 
 }
 
@@ -24,6 +17,14 @@ body{
 	height: 100%;
 	display: flex;
     justify-content: center;
+    height: 100%;
+
+
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
 	flex-direction: column;
         background: url("./Images/health-insurance.jpg") center/cover fixed;
 
