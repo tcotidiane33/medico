@@ -22,7 +22,7 @@
     background: green;
     overflow: hidden;
     text-overflow: inherit;
-    height: 2rem;
+    height: 20px;
 }
 .connexion{
     text-align: right; 
